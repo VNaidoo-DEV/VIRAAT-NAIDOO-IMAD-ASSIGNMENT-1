@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/social_spark_logo"
+    tools:context=".MainActivity" >
+
+    <TextView
+        android:id="@+id/txtResult"
+        android:layout_width="287dp"
+        android:layout_height="198dp"
+        android:layout_marginStart="64dp"
+        android:layout_marginTop="53dp"
+        android:background="@color/white"
+        android:text="SUGGESTIONS WILL APPEAR HERE:"
+        android:textColor="#2E0473"
+        android:textSize="16sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnReset" />
+
+    <Button
+        android:id="@+id/btnReset"
+        android:layout_width="334dp"
+        android:layout_height="71dp"
+        android:layout_marginStart="51dp"
+        android:layout_marginTop="21dp"
+        android:text="RESET"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnSuggest" />
+
+    <Button
+        android:id="@+id/btnSuggest"
+        android:layout_width="330dp"
+        android:layout_height="60dp"
+        android:layout_marginStart="55dp"
+        android:layout_marginTop="74dp"
+        android:text="Get Suggestion"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtTime" />
+
+    <EditText
+        android:id="@+id/txtTime"
+        android:layout_width="246dp"
+        android:layout_height="58dp"
+        android:layout_marginStart="9dp"
+        android:layout_marginTop="14dp"
+        android:background="#FAF8F8"
+        android:ems="10"
+        android:hint="Enter Time (MORNING, AFTERNOON, DINNER...)"
+        android:inputType="text"
+        android:textColor="@color/black"
+        android:textSize="18sp"
+        app:layout_constraintStart_toEndOf="@+id/textView2"
+        app:layout_constraintTop_toBottomOf="@+id/textView" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="130dp"
+        android:layout_height="24dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="39dp"
+        android:background="#FDFBFB"
+        android:fontFamily="sans-serif"
+        android:text="Enter time of day :"
+        android:textColor="#FA0202"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="341dp"
+        android:layout_height="46dp"
+        android:layout_marginStart="44dp"
+        android:layout_marginTop="16dp"
+        android:background="#F8F8F8"
+        android:fontFamily="cursive"
+        android:text="SOCIAL SPARK APP"
+        android:textColor="#0227F6"
+        android:textSize="34sp"
+        android:textStyle="bold|italic"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>
