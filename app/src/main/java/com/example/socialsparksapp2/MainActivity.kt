@@ -1,5 +1,6 @@
 package com.example.socialsparksapp2
 
+import android.health.connect.AggregateRecordsGroupedByDurationResponse
 import android.os.Bundle
 import android.util.Log
 import android.widget.Button
@@ -119,7 +120,7 @@ class MainActivity : AppCompatActivity() {
             val anim= AnimationUtils.loadAnimation(applicationContext,R.anim.fade_in)
             txtResult.startAnimation(anim)
         } //CLEARING CONTENTS OF EDIT TEXT AND TEXT VIEW
-
+        
 
     }
 }
