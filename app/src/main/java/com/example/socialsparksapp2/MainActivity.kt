@@ -120,7 +120,7 @@ class MainActivity : AppCompatActivity() {
             val anim= AnimationUtils.loadAnimation(applicationContext,R.anim.fade_in)
             txtResult.startAnimation(anim)
         } //CLEARING CONTENTS OF EDIT TEXT AND TEXT VIEW
-        
+
 
     }
 }
