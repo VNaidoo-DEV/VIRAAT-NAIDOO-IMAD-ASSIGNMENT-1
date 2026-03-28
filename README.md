@@ -37,18 +37,25 @@ The application follows a simple input output model:
    -The user enters a time of day e.g("Morning") and their is also text hints to guide the User to input a time of day. Its then stored by a variable named txtTime
 2. **Processing:**
    - The app uses IF statements to evaluate the input:
-   - IF(txtTime=="morning): Suggests morning activities.
+     
+ - IF(txtTime=="morning): Suggests morning activities.
 ![SOCIAL SPARK APP 2](VIRAAT%20NAIDOO%20IMAD%20%ASSIGNMENT%201)
-   - IF(txtTime=="afternoon"): Suggests afternoon activities
+
+- IF(txtTime=="afternoon"): Suggests afternoon activities
 ![SOCIAL SPARK APP 3](VIRAAT%20NAIDOO%20IMAD%20%ASSIGNMENT%201)
-   - IF(txtTime=="mid morning"): Suggests mid morning activities
+
+ - IF(txtTime=="mid morning"): Suggests mid morning activities
 ![SOCIAL SPARK APP 4](VIRAAT%20NAIDOO%20IMAD%20%ASSIGNMENT%201)
-  -IF(txtTime=="afternoon snack time": Suggests afternoon snack time activities
+
+- IF(txtTime=="afternoon snack time": Suggests afternoon snack time activities
 ![SOCIAL SPARK APP 5](VIRAAT%20NAIDOO%20IMAD%20%ASSIGNMENT%201)
-  -IF(txtTime=="dinner"):Suggests dinner activities
+
+ - IF(txtTime=="dinner"):Suggests dinner activities
 ![SOCIAL SPARK APP 6](VIRAAT%20NAIDOO%20IMAD%20%ASSIGNMENT%201)
-  -IF(txtTime=="after dinner"):Suggests after dinner activities
+
+ - IF(txtTime=="after dinner"):Suggests after dinner activities
 ![SOCIAL SPARK APP 1](VIRAAT%20NAIDOO%20IMAD%20%ASSIGNMENT%201)
+
 3. **Output:**
    - The result will be dispalyed in a variable named txtResult:
    - "SUGGESTIONS WILL BE DISPLAYED HERE"
