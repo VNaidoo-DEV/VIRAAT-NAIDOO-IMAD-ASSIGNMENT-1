@@ -1,4 +1,4 @@
-<img width="1918" height="867" alt="image" src="https://github.com/user-attachments/assets/10ca830e-e00d-4d97-8129-14bee5b51527" />## Social Spark App
+## Social Spark App
 ## Overview
 The Social Spark App is a basic Android app created using Android Studio and Kotlin programming. 
 
