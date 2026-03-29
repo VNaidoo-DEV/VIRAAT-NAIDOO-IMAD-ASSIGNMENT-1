@@ -1,4 +1,8 @@
 ## 📱Social Spark App
+
+## Github Repository
+[Click here to view the repository](https://github.com/VNaidoo-DEV/VIRAAT-NAIDOO-IMAD-ASSIGNMENT-1.git)
+
 ## 📃Overview
 
 The Social Spark App is a basic Android app created using Android Studio and Kotlin programming. 
@@ -17,6 +21,12 @@ In this busy and often unconnected world, this app is a gentle reminder to conne
 -Display appropriate activity suggestions.
 
 -Designing an interactive and visually appealing mobile interface.
+
+-Uses IF Statements for decision making
+
+-Reset functionality to clear fields
+
+-Input validation for incorrect entries
 
 ## 👨🏾‍💻 Tech Stack
 - **Programming Language:** Kotlin
@@ -39,7 +49,7 @@ The application follows a simple input output model:
 2. **Processing:**
    - The app uses IF statements to evaluate the input:
      
-  ## 🌅Morning Input
+   ## 🌅Morning Input
  - User enters "morning" and clicks the "Get Suggestion" button
    
 - ![SOCIAL SPARK APP 2](Screenshots)
@@ -57,31 +67,59 @@ The application follows a simple input output model:
 - ![SOCIAL SPARK APP 4](Screenshots)
  - The app correctly displays mid-morning activity suggestions.
 
- ## 🌄Afternoon snack time Input
+   ## 🌄Afternoon snack time Input
 - User enters "Afternoon snack time" and clicks the "Get Suggestion" Button.
   
 - ![SOCIAL SPARK APP 5](Screenshots)
 - The app correctly displays afternoon snack time activity suggestions.
   
-- ## 🌛Dinner Input
+  ## 🌛Dinner Input
 - User enters "Dinner" and clicks the "Get Suggestion" Button.
   
 - ![SOCIAL SPARK APP 6](Screenshots)
 - The app correctly displays dinner activity suggestions.
 
-- ## 🌃After Dinner Input
+  ## 🌃After Dinner Input
 - User enters "After Dinner" and clicks the "Get Suggestion" Button
   
 - ![SOCIAL SPARK APP 1](Screenshots)
--The app correctly displays after dinner activity suggestions.
+  
+ -The app correctly displays after dinner activity suggestions.
 
-- ## Error Handling
-- User enters or misspelt a word
-- 
+  ## ⚠️Error Handling
+- User enters or misspelt a word then it will display an error message.
+- ![SOCIAL SPARK APP ERROR HANDLING](Screenshots)  
 
 3. **Output:**
-   - The result will be dispalyed in a variable named txtResult:
+   - The result will be displayed (txtResult):
    - "SUGGESTIONS WILL BE DISPLAYED HERE"
+
+Testing was performed on
+- Android Emulator
+- Physical Android Device
+
+## 📦 Installation & Setup
+1. Clone the repository:
+   [Click here to view the repository](https://github.com/VNaidoo-DEV/VIRAAT-NAIDOO-IMAD-ASSIGNMENT-1.git)
+
+ ## 📔Conclusion   
+-The Social Spark App provides an example of how conditional logic is utilized in Kotlin, creating a simple yet effective means of producing social activity    suggestions based on user input.
+
+### 🔮Future Improvements
+- Voice input support
+- More activity categories
+- Enhanced UI Designs
+
+## 👨🏾‍💻Author
+**Viraat Naidoo**
+
+## Licence
+This project is for educational purpose.
+
+
+ 
+   
+   
 
  
 
