@@ -39,23 +39,45 @@ The application follows a simple input output model:
 2. **Processing:**
    - The app uses IF statements to evaluate the input:
      
- - IF(txtTime=="morning): Suggests morning activities.
-![SOCIAL SPARK APP 2](Screenshots)
+  ## 🌅Morning Input
+ - User enters "morning" and clicks the "Get Suggestion" button
+   
+- ![SOCIAL SPARK APP 2](Screenshots)
+- The app correctly displays morning activity suggestions
+  
+  ## 🌅Afternoon Input 
+- User enters "afternoon" and clicks the "Get Suggestion" button
+  
+- ![SOCIAL SPARK APP 3](Screenshots)
+- The app correctly displays afternoon activity suggestions
+  
+  ## 🌅Mid-Morning Input
+ - User enters "mid-morning" and clicks the "Get Suggestion" button
+   
+- ![SOCIAL SPARK APP 4](Screenshots)
+ - The app correctly displays mid-morning activity suggestions.
 
-- IF(txtTime=="afternoon"): Suggests afternoon activities
-![SOCIAL SPARK APP 3](Screenshots)
+ ## 🌄Afternoon snack time Input
+- User enters "Afternoon snack time" and clicks the "Get Suggestion" Button.
+  
+- ![SOCIAL SPARK APP 5](Screenshots)
+- The app correctly displays afternoon snack time activity suggestions.
+  
+- ## 🌛Dinner Input
+- User enters "Dinner" and clicks the "Get Suggestion" Button.
+  
+- ![SOCIAL SPARK APP 6](Screenshots)
+- The app correctly displays dinner activity suggestions.
 
- - IF(txtTime=="mid morning"): Suggests mid morning activities
-![SOCIAL SPARK APP 4](Screenshots)
+- ## 🌃After Dinner Input
+- User enters "After Dinner" and clicks the "Get Suggestion" Button
+  
+- ![SOCIAL SPARK APP 1](Screenshots)
+-The app correctly displays after dinner activity suggestions.
 
-- IF(txtTime=="afternoon snack time": Suggests afternoon snack time activities
-![SOCIAL SPARK APP 5](Screenshots)
-
- - IF(txtTime=="dinner"):Suggests dinner activities
-![SOCIAL SPARK APP 6](Screenshots)
-
- - IF(txtTime=="after dinner"):Suggests after dinner activities
-![SOCIAL SPARK APP 1](Screenshots)
+- ## Error Handling
+- User enters or misspelt a word
+- 
 
 3. **Output:**
    - The result will be dispalyed in a variable named txtResult:
